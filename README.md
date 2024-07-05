@@ -20,14 +20,14 @@ This is a social network API built with Node.js, Express, and MongoDB. It allows
    cd social-network-api
 
 2. Install dependencies:
-   npm install
+   - npm install
 
 3. Create a .env file in the root directory and add your MongoDB connection string and port number:
-   MONGODB_URI=mongodb://localhost:27017/socialNetworkDB
-   PORT=3001
+   - MONGODB_URI=mongodb://localhost:27017/socialNetworkDB
+  -  PORT=3001
 
 4. Start the server:
-   npm run dev
+   - npm run dev
 
 ## Usage
 Once the server is running, you can interact with the API using tools like Insomnia or Postman.
