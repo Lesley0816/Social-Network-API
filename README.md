@@ -66,28 +66,28 @@ DELETE /api/users/:userId
 ## API Routes
 
 - Users
-    GET /api/users: Fetch all users.
-    GET /api/users/:userId: Fetch a single user by ID.
-    POST /api/users: Create a new user.
-    PUT /api/users/:userId: Update a user by ID.
-    DELETE /api/users/:userId: Delete a user by ID.
-    POST /api/users/:userId/friends/:friendId: Add a friend to a user's friend list.
-    DELETE /api/users/:userId/friends/:friendId: Remove a friend from a user's friend list.
+    - GET /api/users: Fetch all users.
+    - GET /api/users/:userId: Fetch a single user by ID.
+    - POST /api/users: Create a new user.
+    - PUT /api/users/:userId: Update a user by ID.
+    - DELETE /api/users/:userId: Delete a user by ID.
+    - POST /api/users/:userId/friends/:friendId: Add a friend to a user's friend list.
+    - DELETE /api/users/:userId/friends/:friendId: Remove a friend from a user's friend list.
 
 - Thoughts
-    GET /api/thoughts: Fetch all thoughts.
-    GET /api/thoughts/:thoughtId: Fetch a single thought by ID.
-    POST /api/thoughts: Create a new thought.
-    PUT /api/thoughts/:thoughtId: Update a thought by ID.
-    DELETE /api/thoughts/:thoughtId: Delete a thought by ID.
+    - GET /api/thoughts: Fetch all thoughts.
+    - GET /api/thoughts/:thoughtId: Fetch a single thought by ID.
+    - POST /api/thoughts: Create a new thought.
+    - PUT /api/thoughts/:thoughtId: Update a thought by ID.
+    - DELETE /api/thoughts/:thoughtId: Delete a thought by ID.
 
 - Reactions
-    POST /api/thoughts/:thoughtId/reactions: Add a reaction to a thought.
-    DELETE /api/thoughts/:thoughtId/reactions/:reactionId: Remove a reaction from a thought.
+    - POST /api/thoughts/:thoughtId/reactions: Add a reaction to a thought.
+    - DELETE /api/thoughts/:thoughtId/reactions/:reactionId: Remove a reaction from a thought.
 
 - Friends
-    POST /api/users/:userId/friends/:friendId: Add a friend to a user's friend list.
-    DELETE /api/users/:userId/friends/:friendId: Remove a friend from a user's friend list
+    - POST /api/users/:userId/friends/:friendId: Add a friend to a user's friend list.
+    - DELETE /api/users/:userId/friends/:friendId: Remove a friend from a user's friend list
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
